@@ -60,7 +60,7 @@ h1{
 }
 .title{
 	font-family: "Dancing Script", cursive;
-	font-size: 150px;
+	font-size: 9vw;
 	font-weight: 600;
 	text-align: center;
 	color: var(--dorado);
@@ -68,15 +68,16 @@ h1{
 
 .subtitle{
 	font-family: "Dancing Script", cursive;
-	font-size: 55px;
+	font-size: 6vw;
     font-weight: 300;
 }
 .desc {
-	font-size: 45px;
+	font-size: 4vw;
 	margin-top: 20px;
 }
 .container-banner{
 	text-align: center;
+	background-color: hwb(31.3deg 72.74% 0% / 72%);
 }
 hr{
 	size: 5px;
@@ -459,4 +460,14 @@ hr{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.video-cont{
+	width: 100vw;
+	height: auto;
+	margin: auto;
+}
+
+.row {
+	--bs-gutter-x: 0;
 }
